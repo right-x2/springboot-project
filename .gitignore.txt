@@ -1,0 +1,92 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@right-x2 
+MomMadeFood
+/
+team2_project2
+Private
+0
+00
+Code
+Issues
+1
+Pull requests
+Actions
+Projects
+Security
+Insights
+Settings
+team2_project2/.gitignore 
+@wandukong
+wandukong [Chore] .gitignore 파일 수정
+Latest commit ac28939 6 days ago
+ History
+ 1 contributor
+46 lines (42 sloc)  613 Bytes
+   
+*.java.hsp
+*.sonarj
+*.sw*
+.DS_Store
+.settings
+.springBeans
+bin
+build.sh
+integration-repo
+ivy-cache
+jxl.log
+jmx.log
+derby.log
+spring-test/test-output/
+.gradle
+argfile*
+activemq-data/
+
+classes/
+/build
+buildSrc/build
+/spring-*/build
+/spring-core/kotlin-coroutines/build
+/framework-bom/build
+/integration-tests/build
+/src/asciidoc/build
+target/
+
+# Eclipse artifacts, including WTP generated manifests
+.classpath
+.project
+.factorypath
+spring-*/src/main/java/META-INF/MANIFEST.MF
+
+# IDEA artifacts and output dirs
+*.iml
+*.ipr
+*.iws
+.idea
+out
+test-output
+atlassian-ide-plugin.xml
+.gradletasknamecache
+
+# VS Code
+.vscode/
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Loading complete Octotree
+Forbidden
+3 days trial remained
